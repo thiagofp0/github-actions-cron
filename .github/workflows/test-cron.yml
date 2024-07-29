@@ -2,7 +2,7 @@ name: daily-report
 
 on:
   schedule:
-    - cron: "1 * * * *"
+    - cron: "53 20 * * *"
 
 jobs:
   my-job:
