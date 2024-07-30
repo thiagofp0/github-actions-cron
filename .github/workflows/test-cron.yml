@@ -1,10 +1,8 @@
-name: Daily Data Capture Call
+name: Call API every 15 minutes
 
 on:
-  workflow_dispatch:
   schedule:
     - cron: '*/15 * * * *'
-
 
 jobs:
   call-api:
